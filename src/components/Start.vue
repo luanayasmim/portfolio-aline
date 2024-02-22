@@ -25,10 +25,16 @@
             </div>
 
         </main>
-        <div class="ml-10">
+        <div class="ml-10 mr-auto">
             <PenIconButton/>
             <CalendarIconButton/>
             <UserIconButton/>
+        </div>
+        <div class="flex">
+
+            <div class="ml-auto mr-10">
+                <IronIconButton/>
+            </div>
         </div>
 </template>
 

@@ -11,10 +11,10 @@
     </header>
     <!-- <IronIconButton/> -->
 
-    <main>
+    <!-- <main>
         <Projects/>
         <Timeline/>
-    </main>
+    </main> -->
 
     <footer class="h-screen flex flex-col px-8">
         <Aboutme/>

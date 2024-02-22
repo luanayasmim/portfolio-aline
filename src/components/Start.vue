@@ -9,33 +9,44 @@
 </script>
 
 <template>
-  <div class="ml-10">
-            <MoonIconButton/>
+
+    <!-- Menu Lateral -->
+    <div class="h-screen flex">
+        <div class="max-w-md flex flex-col justify-between">
+            <!-- Botão no topo da coluna -->
+            <div>
+                <MoonIconButton/>
+            </div>
+
+            <!-- Espaçador para empurrar os outros três para o final -->
+            <div class="flex-grow"></div>
+
+            <!-- Container para os três botões no final da coluna -->
+            <div class="flex flex-col items-end space-y-6 p-6 mb-16">
+                <PenIconButton/>
+                <CalendarIconButton/>
+                <UserIconButton/>
+            </div>
         </div>
-        <main class="flex">
-            <div class="ml-auto mr-10">
-                <div class="py-10">
-                    <h1 class="text-black text-4xl font-medium">Hi! My name is Aline and I design  <span class="text-purple-500">experiences.</span></h1>
+
+        <!-- Texto -->
+        <main class="ml-auto mt-60 2xl:mt-80 space-y-11">
+                <div class="">
+                    <h1 class="text-black text-4xl font-medium text-left">Hi! My name is Aline and I design  <span class="text-purple-500">experiences.</span></h1>
                 </div>
-                <div class="flex">
+
+                <!-- Botões -->
+                <div class="space-x-10 flex justify-end">
                     <PrimaryButton text="download resume"/>
                     <SecondaryButton text="contact"/>
                 </div>
-                
-            </div>
-
         </main>
-        <div class="ml-10 mr-auto">
-            <PenIconButton/>
-            <CalendarIconButton/>
-            <UserIconButton/>
+        
+        <div class="flex items-end mr-16 mb-16">
+            <IronIconButton/>
         </div>
-        <div class="flex">
-
-            <div class="ml-auto mr-10">
-                <IronIconButton/>
-            </div>
-        </div>
+    </div>
+  
 </template>
 
 <style>

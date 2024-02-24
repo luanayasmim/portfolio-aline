@@ -1,16 +1,11 @@
 <script setup>
-    import { Linkedin } from "lucide-vue-next";
+    import { Linkedin } from 'lucide-vue-next';
 </script>
 
 <template>
-    <div class="flex flex-1 ml-10 mt-10">
+    <div class='flex flex-1'>
         <button class='flex items-center justify-center w-14 h-14 rounded-full border border-indigo-500 hover:bg-indigo-500  text-indigo-500 hover:text-white'>
-            <Linkedin class="w-6 h-6" />
+            <Linkedin class='w-6 h-6' />
         </button>
-        <span>Linkedin</span>
     </div>
 </template>
-
-<style>
-
-</style>

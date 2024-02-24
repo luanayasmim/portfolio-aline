@@ -7,17 +7,17 @@
 
 <template>
     <header>
-        <Start/>
+        <!-- <Start/> -->
     </header>
 
     <main>
-        <Projects/>
+        <!-- <Projects/> -->
         <!-- <Timeline/> -->
     </main>
 
-    <!-- <footer class="h-screen flex flex-col px-8">
+    <footer>
         <Aboutme/>
-    </footer> -->
+    </footer>
     
 </template>
    

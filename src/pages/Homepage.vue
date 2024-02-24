@@ -9,19 +9,15 @@
     <header>
         <Start/>
     </header>
-    <!-- <IronIconButton/> -->
 
     <main>
         <Projects/>
-        <br>
-        <br>
-        <br>
-        <Timeline/>
+        <!-- <Timeline/> -->
     </main>
 
-    <footer class="h-screen flex flex-col px-8">
+    <!-- <footer class="h-screen flex flex-col px-8">
         <Aboutme/>
-    </footer>
+    </footer> -->
     
 </template>
    

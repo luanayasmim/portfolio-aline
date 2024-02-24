@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class=" grid grid-cols-3 gap-4">
+    <div class="h-screen relative grid grid-cols-3 gap-4">
         <div class="row-span-5">
             <h2 class="text-3xl font-bold">Office assistant</h2>
             <h3>Silreis Corporation | 2021-2022</h3>

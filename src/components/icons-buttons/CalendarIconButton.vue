@@ -6,6 +6,7 @@
     );
 
     export default {
+        name: 'CalendarIconButton',
         methods: {
             showDiv() {
                 this.$refs.hoverDiv.classList.remove('invisible');

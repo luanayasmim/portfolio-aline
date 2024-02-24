@@ -6,6 +6,7 @@
     );
 
     export default {
+        name: 'PenIconButton',
         methods: {
             showDiv() {
                 this.$refs.hoverDiv.classList.remove('invisible');

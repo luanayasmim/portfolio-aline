@@ -5,7 +5,8 @@ const User = defineAsyncComponent(() =>
     import('lucide-vue-next').then(module => module.User2)
 );
 
-export default {
+export default{
+    name:'UserIconButton',
     methods: {
         showDiv() {
             this.$refs.hoverDiv.classList.remove('invisible');

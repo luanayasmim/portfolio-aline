@@ -6,10 +6,10 @@
     import CalendarIconButton from '../components/icons-buttons/CalendarIconButton.vue';
     import UserIconButton from '../components/icons-buttons/UserIconButton.vue';
     import IronIconButton from '../components/icons-buttons/IronIconButton.vue';
+    import TextInteractive from '../components/text/TextInteractive.vue';
 </script>
 
 <template>
-
     <!-- Menu Lateral -->
     <div class="h-screen flex">
         <div class="max-w-md flex flex-col justify-between">
@@ -18,7 +18,7 @@
                 <MoonIconButton/>
             </div>
 
-            <!-- Espaçador para empurrar os outros três para o final -->
+            <!-- Espaçador para empurrar os outros três botões para o final -->
             <div class="flex-grow"></div>
 
             <!-- Container para os três botões no final da coluna -->
@@ -31,10 +31,7 @@
 
         <!-- Texto -->
         <main class="ml-auto mt-60 2xl:mt-80 space-y-11">
-                <div class="">
-                    <h1 class="text-black text-4xl font-medium text-left">Hi! My name is Aline and I design  <span class="text-purple-500">experiences.</span></h1>
-                </div>
-
+                <TextInteractive/>
                 <!-- Botões -->
                 <div class="space-x-10 flex justify-end">
                     <PrimaryButton text="download resume"/>
@@ -46,9 +43,4 @@
             <IronIconButton/>
         </div>
     </div>
-  
 </template>
-
-<style>
-
-</style>

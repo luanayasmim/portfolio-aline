@@ -1,18 +1,18 @@
 <script setup>
-    import Start from '../components/Start.vue';
-    import Projects from '../components/Projects.vue';
-    import Timeline from '../components/Timeline.vue';
-    import Aboutme from '../components/Aboutme.vue';
+    import Start from './Start.vue';
+    import Projects from './Projects.vue';
+    import Timeline from './Timeline.vue';
+    import Aboutme from './Aboutme.vue';
 </script>
 
 <template>
     <header>
-        <!-- <Start/> -->
+        <Start/>
     </header>
 
     <main>
-        <!-- <Projects/> -->
-        <!-- <Timeline/> -->
+        <Projects/>
+        <Timeline/>
     </main>
 
     <footer>

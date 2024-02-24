@@ -6,7 +6,7 @@ import EmailIconButton from '../components/icons-buttons/EmailIconButton.vue';
 </script>
 
 <template>
-    <div class="flex flex-col px-8">
+    <div class="flex flex-col px-8 mt-[200px]">
         <div class="ml-auto mr-10">
             <img src='../assets/aline-icon.png' alt="" width="354.5" height="365.5">
         </div>
@@ -27,7 +27,7 @@ import EmailIconButton from '../components/icons-buttons/EmailIconButton.vue';
                 Contact me to discuss design projects and collaborations!</p>
         </div>
 
-        <div class="flex ml-auto mr-10 mt-10 space-x-10">
+        <div class="flex ml-auto mr-10 mt-10 space-x-10 mb-16">
             <PrimaryButton text="download resume" />
             <div class="flex space-x-6">
                 <LinkedinIconButton />

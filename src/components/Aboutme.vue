@@ -19,7 +19,7 @@ import EmailIconButton from '../components/icons-buttons/EmailIconButton.vue';
         </div>
 
         <div class="w-2/3 ml-auto mr-10 mt-10">
-            <p class="text-xl font-medium text-black">Hey! My name is Aline Reis, I`m passionate about everything that
+            <p class="text-xl font-medium text-black text-end">Hey! My name is Aline Reis, I`m passionate about everything that
                 involves
                 art, technology and people. I`m a curious person, always looking to learn new things and recently I`ve been
                 especially interested in front-end programming and the potential for extending my work as a designer through

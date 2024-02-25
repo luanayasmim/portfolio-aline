@@ -17,7 +17,7 @@
             </div>
 
             <!-- Container para os três botões no final da coluna -->
-            <div class="">
+            <div>
                 <LateralMenu/>
             </div>
         </div>

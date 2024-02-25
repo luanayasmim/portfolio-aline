@@ -5,7 +5,7 @@ import UserIconButton from '../icons-buttons/UserIconButton.vue';
 </script>
 
 <template>
-    <div class="max-w-md flex flex-col justify-between">
+    <div class='max-w-md flex flex-col justify-between'>
 
         <div class='flex-grow'></div>
         <div class='flex flex-col items-end space-y-6 p-6 mb-16'>

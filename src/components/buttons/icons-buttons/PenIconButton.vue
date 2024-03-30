@@ -35,7 +35,7 @@ export default {
                         hover:bg-white hover:text-purple-500 hover:border-purple-500
                         focus:bg-purple-500 focus:text-white focus:border-none' @mouseover='showDiv'
             @mouseleave='hideDiv' href='#projects'>
-            <pen-tool class='w-6 h-6' />
+            <PenTool class='w-6 h-6' />
         </a>
     </div>
 </template>

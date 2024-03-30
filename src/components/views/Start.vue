@@ -10,7 +10,7 @@
 <template>
     <!-- Menu Lateral -->
     <div class='h-screen flex'>
-        <main class='ml-auto mt-60 2xl:mt-80 space-y-11'>
+        <main class='ml-auto mt-40 2xl:mt-80 space-y-11'>
                 <TextInteractive/>
                 <!-- Botões -->
                 <div class='space-x-10 flex justify-end'>
@@ -18,9 +18,9 @@
                     <SecondaryButton text='contact'/>
                 </div>
         </main>
-        
-        <div class='flex items-end mr-16 mb-16'>
+        <div class='flex items-end mr-16 mb-10'>
             <IronIconButton/>
         </div>
+        
     </div>
 </template>

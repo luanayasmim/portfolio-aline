@@ -1,19 +1,18 @@
 <script setup>
-import Start from '../components/views/Start.vue';
-import Projects from '../components/views/Projects.vue';
-import Timeline from '../components/views/Timeline.vue';
-import Aboutme from '../components/views/Aboutme.vue';
-import MoonIconButton from '../components/buttons/icons-buttons/MoonIconButton.vue';
-import LateralMenu from '../components/menu/LateralMenu.vue';
+import Start from '@/components/views/Start.vue';
+import Projects from '@/components/views/Projects.vue';
+import Timeline from '@/components/views/Timeline.vue';
+import Aboutme from '@/components/views/Aboutme.vue';
+import MoonIconButton from '@/components/buttons/icons-buttons/MoonIconButton.vue';
+import ThemeButton from '@/components/buttons/ThemeButton.vue';
+import LateralMenu from '@/components/menu/LateralMenu.vue';
 </script>
 
 <template>
-    <div class="h-screen flex flex-col fixed z-40">
+    <div class='flex flex-col'>
         <div class='max-w-md flex flex-col justify-between'>
-            <div>
-                <MoonIconButton />
-            </div>
-            <div>
+            <div class='fixed z-40 '>
+                <ThemeButton />
                 <LateralMenu />
             </div>
         </div>

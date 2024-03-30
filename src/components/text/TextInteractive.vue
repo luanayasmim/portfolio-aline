@@ -1,6 +1,11 @@
 <template>
-    <h1 class='text-black text-4xl font-medium text-left'>Hi! My name is Aline and I design <span :class='currentColor'>{{
-        currentWord }}.</span></h1>
+    <h1 
+        class='text-4xl font-medium text-left'>
+        Hi! My name is Aline and I design 
+        <span :class='currentColor'>
+            {{currentWord }}.
+        </span>
+    </h1>
 </template>
 
 <script>

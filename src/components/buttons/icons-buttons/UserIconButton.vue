@@ -31,7 +31,7 @@ export default {
         </div>
         <a class='absolute btn flex items-center justify-center 
                        w-14 h-14 rounded-full 
-                       border border-black text-black 
+                       border border-black text-black dark:bg-white
                        hover:bg-white hover:text-fuchsia-400 hover:border-fuchsia-400
                        focus:bg-fuchsia-400 focus:text-white focus:border-none' @mouseover='showDiv'
             @mouseleave='hideDiv' href='#aboutme'>

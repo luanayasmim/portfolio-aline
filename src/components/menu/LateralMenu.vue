@@ -7,7 +7,7 @@ import UserIconButton from '../buttons/icons-buttons/UserIconButton.vue';
 <template>
     <div class='max-w-md flex flex-col justify-between'>
 
-        <div class='flex-grow py-40 2xl:py-60'></div>
+        <div class='flex-grow md:py-[100px] py-40 2xl:py-60'></div>
         <div class='flex flex-col items-end space-y-6'>
             <PenIconButton />
             <CalendarIconButton />

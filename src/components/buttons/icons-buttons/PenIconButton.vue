@@ -33,7 +33,7 @@ export default {
                         w-14 h-14 rounded-full 
                         border border-black text-black dark:bg-white
                         hover:bg-white hover:text-purple-500 hover:border-purple-500
-                        focus:bg-purple-500 focus:text-white focus:border-none' @mouseover='showDiv'
+                        focus:bg-purple-500 dark:focus:bg-purple-500 focus:text-white focus:border-none' @mouseover='showDiv'
             @mouseleave='hideDiv' href='#projects'>
             <PenTool class='w-6 h-6' />
         </a>

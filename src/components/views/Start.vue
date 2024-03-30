@@ -13,7 +13,9 @@
                 <!-- Botões -->
                 <div class='space-x-10 flex justify-end'>
                     <PrimaryButton text='download resume'/>
-                    <SecondaryButton text='contact'/>
+                    <a href='mailto:aline.rsilreis@gmail.com' target='_blank' >
+                        <SecondaryButton text='contact'/>
+                    </a>
                 </div>
         </main>
         <div class='flex items-end mr-16 mb-10'>

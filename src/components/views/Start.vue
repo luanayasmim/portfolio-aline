@@ -1,10 +1,8 @@
 <script setup>
-    import MoonIconButton from '../buttons/icons-buttons/MoonIconButton.vue';
     import PrimaryButton from '../buttons/text-buttons/PrimaryButton.vue';
     import SecondaryButton from '../buttons/text-buttons/SecondaryButton.vue';
     import IronIconButton from '../buttons/icons-buttons/IronIconButton.vue';
     import TextInteractive from '../text/TextInteractive.vue';
-    import LateralMenu from '../menu/LateralMenu.vue';
 </script>
 
 <template>

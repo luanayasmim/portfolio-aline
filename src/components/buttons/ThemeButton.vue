@@ -1,16 +1,20 @@
 <script>
     import { defineAsyncComponent, ref, watch, computed } from 'vue';
 
+    import { useDark } from '@vueuse/core';
+
     const Moon = defineAsyncComponent(() => import('lucide-vue-next').then(module => module.Moon));
     const Sun = defineAsyncComponent(() => import('lucide-vue-next').then(module => module.Sun));
 
     export default{
         name: 'ThemeButton',
         setup(){
+
+            const isDark = useDark();
             const isMoon = ref(true);
 
             const toggleIcon = () =>{
-                isMoon.value = !isMoon.value;
+                isMoon.value = !isDark;
             };
 
             const currentIcon = ref(Moon);
